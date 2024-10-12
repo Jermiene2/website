@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jermiene Elgin Matthew C. Rivera - Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(135deg, #f0f4f8, #d1e8e2);
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: linear-gradient(45deg, #007bff, #4caf50);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffeb3b;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .art-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .art {
+            font-family: monospace;
+            white-space: pre;
+            color: black;
+            width: 50%;
+            font-size: 0.8em; /* Adjusted for visibility */
+        }
+
+        .art-picture {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 8px solid #4caf50;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .art-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        h2 {
+            font-size: 2.2em;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+
+        footer {
+            background: linear-gradient(45deg, #4caf50, #007bff);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .achievements {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .achievement-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: calc(50% - 20px);
+            margin: 10px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .achievement-box img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            max-height: 220px;
+        }
+
+        .achievement-box p {
+            margin: 5px 0;
+        }
+
+        .about-info {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .about-info p {
+            margin: 5px 0;
+            font-size: 1.1em;
+        }
+
+        .about-info p strong {
+            font-size: 1.2em;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+            gap: 10px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#art" onclick="scrollToSection('art')">Home</a></li>
+                <li><a href="#about" onclick="scrollToSection('about')">About Me</a></li>
+                <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="art" class="art-section">
+            <div class="art">
+                <pre>
+   ▄▄▄▄▄ ▄███▄   █▄▄▄▄ █▀▄▀█ ▄█ ▄███▄      ▄   ▄███▄       ▄███▄   █      ▄▀  ▄█    ▄       █▀▄▀█ ██     ▄▄▄▄▀ ▄▄▄▄▀ ▄  █ ▄███▄     ▄ ▄   
+▄▀  █   █▀   ▀  █  ▄▀ █ █ █ ██ █▀   ▀      █  █▀   ▀      █▀   ▀  █    ▄▀    ██     █      █ █ █ █ █ ▀▀▀ █ ▀▀▀ █   █   █ █▀   ▀   █   █  
+    █   ██▄▄    █▀▀▌  █ ▄ █ ██ ██▄▄    ██   █ ██▄▄        ██▄▄    █    █ ▀▄  ██ ██   █     █ ▄ █ █▄▄█    █     █   ██▀▀█ ██▄▄    █ ▄   █ 
+ ▄ █    █▄   ▄▀ █  █  █   █ ▐█ █▄   ▄▀ █ █  █ █▄   ▄▀     █▄   ▄▀ ███▄ █   █ ▐█ █ █  █     █   █ █  █   █     █    █   █ █▄   ▄▀ █  █  █ 
+  ▀     ▀███▀     █      █   ▐ ▀███▀   █  █ █ ▀███▀       ▀███▀       ▀ ███   ▐ █  █ █        █     █  ▀     ▀        █  ▀███▀    █ █ █  
+                 ▀      ▀              █   ██                                   █   ██       ▀     █                 ▀             ▀ ▀   
+                </pre>
+            </div>
+            <div class="art-picture">
+                <img src="my_picture.jpg" alt="A picture of me">
+            </div>
+        </section>
+
+        <section id="home">
+            <div class="card">
+                <h2>Welcome to My Personal Website</h2>
+                <p>Hi! I'm Jermiene Elgin Matthew C. Rivera, a freshman pursuing a Bachelor of Science in Computer Science at the University of Perpetual Help System DALTA. This website is a showcase of my journey, achievements, and interests.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="about-info">
+                    <p><strong>Course and School:</strong> Bachelor of Science in Computer Science at University of Perpetual Help System DALTA</p>
+                    <p><strong>Current Year Level:</strong> Freshman</p>
+                    <p><strong>Specialization:</strong> Data Science</p>
+                    <p><strong>Philosophy:</strong> Time is gold. I believe in making the most out of every moment to achieve excellence in my field.</p>
+                </div>
+            </div>
+
+            <div class="achievements">
+                <div class="achievement-box">
+                    <img src="achievement_1.jpg" alt="Achievement 1">
+                    <p><strong>Champions</strong></p>
+                    <p>Secured 1st place in the Mobile Legends Sports Festival during Grade 11.</p>
+                </div>
+                <div class="achievement-box">
+                    <img src="achievement_2.jpg" alt="Achievement 2">
+                    <p><strong>Champions</strong></p>
+                    <p>Secured 1st place in the Mobile Legends Sports Festival during Grade 12.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Why Computer Science?</h2>
+                <p>My experiences in competitive gaming, where strategy and teamwork are essential, have deeply influenced my choice to pursue Computer Science. The skills I've honed, such as strategic thinking and problem-solving, are directly applicable to the tech field. My passion for using technology to innovate and tackle complex problems mirrors the dedication I’ve shown in gaming. These experiences have reinforced my commitment to a career in Computer Science, where I aim to leverage these skills for impactful solutions.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="card">
+                <h2>Contact Information</h2>
+                <div class="social-icons">
+                    <img src="icon_1.png" alt="GitHub">
+                    <img src="icon_2.png" alt="Facebook">
+                    <img src="icon_3.png" alt="Email">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jermiene Elgin Matthew C. Rivera</p>
+    </footer>
+
+    <script>
+        function scrollToSection(id) {
+            var headerHeight = document.querySelector('header').offsetHeight;
+            var element = document.getElementById(id);
+            var topPosition = element.offsetTop - headerHeight;
+            window.scrollTo({
+                top: topPosition,
+                behavior: 'smooth'
+            });
+            history.pushState(null, null, `#${id}`);
+        }
+
+        document.addEventListener('scroll', function () {
+            var sections = document.querySelectorAll('section');
+            var scrollPos = window.scrollY + window.innerHeight / 2;
+            sections.forEach(function (section) {
+                if (section.offsetTop <= scrollPos && section.offsetTop + section.offsetHeight > scrollPos) {
+                    var id = section.getAttribute('id');
+                    history.replaceState(null, null, `#${id}`);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
